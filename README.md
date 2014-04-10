@@ -4,7 +4,7 @@ A "classic code" inspired web design project. (psst, it comes with an awesome te
 ##Demo
 [https://rawgithub.com/schart/proj_code/master/demo/index.html](https://rawgithub.com/schart/proj_code/master/demo/index.html).
 ###Contribute
-I appreciate both submittions, and tips or feedback (haakon@underbakke.net). I use nothing but pure CSS and a bit of jQuery here and there. Definitely not hard to add on to something if you want to.
+I appreciate submissions and tips or feedback (haakon@underbakke.net). I use nothing but pure CSS and a bit of jQuery here and there. Definitely not hard to add on to something if you want to.
 Here's a quick list of **things you can add**:
 * Form elements
 * Awesome-looking tables
