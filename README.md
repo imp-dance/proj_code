@@ -1,4 +1,4 @@
 proj_code
 =========
 
-A batch-code inspired web design project.
+A "classic code" inspired web design project.
