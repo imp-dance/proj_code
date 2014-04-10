@@ -1,8 +1,6 @@
 proj_code
 ====
 A "classic code" inspired web design project. (psst, it comes with an awesome terminal thing - check out the demo to see how it looks)
-##License
-Use or modify this in any way you want wherever you want for whatever purpose you want.
 ##Demo
 [Check me out](https://rawgithub.com/schart/proj_code/master/demo/index.html) (via rawgithub.com). This is currently marked as a "work in progress" in-dev pre-alpha lotsa-bugs project, so don't hate me for all the mistakes I've made:(
 ###Contribute?
@@ -24,3 +22,6 @@ Description of classes and IDs to make contributing an ease.
 | .title        | Main header/title           |
 | .row          | .column container           |
 | .column       | Responsive containers       |
+
+##License
+Use or modify this in any way you want wherever you want for whatever purpose you want.
