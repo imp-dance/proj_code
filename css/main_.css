@@ -135,13 +135,13 @@ b, strong{
 }
 p:before, p:after{
 color:#777;
-}
+}/*
 p:before{
 	content:"# ";
 }
 p:after{
 	content:" #";
-}
+}*/
 .links:after{content:"";}
 .links:before{content:"";}
 .links a{
