@@ -80,6 +80,28 @@ ul, ol{
 	margin: 0;
 	color:#666;
 }
+ol{
+    padding-left:40px;
+}
+.app table{
+    color:#aaa;
+    background:#000;
+    display:block;
+}
+.app table th{
+    color:#fff;
+}
+table{
+    margin:0;
+    padding:10px 0;
+}
+td, th{
+    padding:5px;
+    text-align:left;
+}
+tr{
+    background:#222;
+}
 p.code{
 	padding:5px 10px;
 	background:#000;

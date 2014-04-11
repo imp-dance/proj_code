@@ -8,4 +8,6 @@ $(document).ready(function(){
 	}, function(){
 		$("#coderun").text("");
 	});
+    $("#nav").load("../demo/nav.html"); /* Load nav */
+    $(".sidebar").load("../demo/sidebar.html"); /* Load sidebar */
 });
