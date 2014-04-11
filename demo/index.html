@@ -6,7 +6,7 @@
 	<meta name="author" content="   ">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../css/main_.css">
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
 	<title>proj_code</title>
 	<!--[if lt IE 9]>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
@@ -14,6 +14,7 @@
 	<![endif]-->
 </head>
 <body>
+    <div class="dd-code hideurself"><div class="center"><span class="coderun"></span></div></div>
 	<div class="container">
 		<header><h1 class="title">proj_code</h1></header>
 		<div class="row">
@@ -22,7 +23,7 @@
 				<a href="index.html" class="cd">index (@)</a>
 				<a href="blog.html" class="cd">blog</a>
 				<a href="contact.html" class="cd">contact</a>
-				<span id="coderun"></span>
+				<span class="coderun"></span>
 				<br />
 				</p>
 		</div>
@@ -31,19 +32,31 @@
 				<div class="app">
 					<h3>contribute</h3>
 					<p>
-					I appreciate submissions and tips or feedback (<a href="mailto:haakon@underbakke.net">haakon@underbakke.net</a>). I use nothing but pure CSS and a bit of jQuery here and there. Definitely not hard to add on to anything if you want to. Here's a quick list of <strong>things you can add</strong>:
+					I appreciate submissions and tips or feedback (<a href="mailto:haakon@underbakke.net">haakon@underbakke.net</a>). I use nothing but pure CSS and a bit of jQuery here and there. Definitely not hard to add on to anything if you want to. Here's some tips to <strong>things you can add</strong>:
 					</p>
 					<ul>
 						<li>Form elements</li>
 						<li>Awesome looking tables</li>
 						<li>Other programming-language inspired containers</li>
+                        <li>Special elements</li>
+                        <li>More fancy console stuff</li>
 					</ul>
 					<p>
-					You can clone this repo via the Github app, or command line:
+					The best way to contribute is to fork the repo, then make a new branch and submit a pull request.
 					</p>
 					<code>
-					$ git clone https://github.com/schart/proj_code.git
+<pre>$ cd work-directory
+
+$ git clone https://github.com/your-awesome-username/proj_code.git
+
+$ git branch my_version
+$ git push origin my_version
+$ git checkout my_version</pre>
 					</code>
+                    <p>Then you can start working locally, commit and push as you normally would. When you are happy with your contribution,
+                    you can submit a pull request</p>
+                    <img src="screen2.png" class="srcimg" alt="Screen 2" />
+                    <p>I will then personally review the request and add it (and your name) to the project</p>
 				</div>
 				<div class="app">
 					<h3>License</h3>

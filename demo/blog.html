@@ -6,14 +6,15 @@
 	<meta name="author" content="   ">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="stylesheet" href="../css/main_.css">
-	<script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
-	<title>proj_code/blog</title>
+	<script src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<title>proj_code</title>
 	<!--[if lt IE 9]>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7/html5shiv.js"></script>
 		<script src="http://cdnjs.cloudflare.com/ajax/libs/respond.js/1.4.2/respond.js"></script>
 	<![endif]-->
 </head>
 <body>
+    <div class="dd-code hideurself"><div class="center"><span class="coderun"></span></div></div>
 	<div class="container">
 		<header><h1 class="title">proj_code</h1></header>
 		<div class="row">
@@ -22,7 +23,7 @@
 				<a href="index.html" class="cd">index</a>
 				<a href="blog.html" class="cd">blog (@)</a>
 				<a href="contact.html" class="cd">contact</a>
-				<span id="coderun"></span>
+				<span class="coderun"></span>
 				<br />
 				</p>
 		</div>
@@ -30,6 +31,10 @@
 			<div class="column two-thirds main">
 				<div class="app">
 					<h3>Entry #3 - Code post</h3>
+                    <div class="blog-head">
+                    @ Written by Håkon Underbakke<br />
+                    @ Post to <a href="#">Facebook</a> | <a href="#">Twitter</a>
+                    </div>
 					<p>
 					If you are using the terminal or Git Bash (command line), use this to clone the repo:
 					<code>
@@ -40,13 +45,21 @@
 				</div>
 				<div class="app">
 					<h3>Entry #2 - Image post</h3>
-					<p>This image is from the readme.md file on GitHub
-					<img src="screen.png" alt="Screenshot" />
-					You should totally check it out
+                    <div class="blog-head">
+                    @ Written by Håkon Underbakke<br />
+                    @ Post to <a href="#">Facebook</a> | <a href="#">Twitter</a>
+                    </div>
+					<p>This image is from the readme.md file on GitHub</p>
+					<img src="screen.png" class="srcimg" alt="Screenshot" />
+					<p>You should totally check it out</p>
 					</p>
 				</div>
 				<div class="app">
 					<h3>Entry #1 - Text post</h3>
+                    <div class="blog-head">
+                    @ Written by Håkon Underbakke<br />
+                    @ Post to <a href="#">Facebook</a> | <a href="#">Twitter</a>
+                    </div>
 					<p>Pellentesque <strong>habitant morbi tristique senectus</strong> et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, <a href="#not-a-real-link">feugiat vitae</a>, ultricies eget, tempor sit amet, <i>ante</i>. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
 				</div>
 			</div>
