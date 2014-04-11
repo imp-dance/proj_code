@@ -1,4 +1,6 @@
 $(document).ready(function(){
+    $("#nav").load("../demo/nav.html"); /* Load nav */
+    $(".sidebar").load("../demo/sidebar.html"); /* Load sidebar */
 	$("a").hover(function(){
 		if ($(this).attr("target")){
 			$("#coderun").text("cd (" + $(this).attr("href") + ", " + $(this).attr("target") + ")");
@@ -8,6 +10,4 @@ $(document).ready(function(){
 	}, function(){
 		$("#coderun").text("");
 	});
-    $("#nav").load("../demo/nav.html"); /* Load nav */
-    $(".sidebar").load("../demo/sidebar.html"); /* Load sidebar */
 });
