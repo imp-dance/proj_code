@@ -27,6 +27,13 @@ code{
     border-left:3px solid #b5e853;
     cursor:pointer;
 }
+code pre{
+    white-space: -moz-pre-wrap;
+    white-space: -pre-wrap;
+    white-space: -o-pre-wrap;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
 code:active{
     border-left:6px solid #b5e853;
     padding:2px 10px 2px 7px;
