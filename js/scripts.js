@@ -1,22 +1,32 @@
 $(document).ready(function(){
 	$("a").hover(function(){
+        if ($(this).attr("href") == "#"){
+            $(".coderun").text("run #" + $(this).attr("id") + "");
+        }else{
 		if ($(this).attr("target")){
 			$(".coderun").text("cd (" + $(this).attr("href") + ", " + $(this).attr("target") + ")");
 		}else{
 			$(".coderun").text("cd " + $(this).attr("href"));
 		}
+        }
+        $(".blink").addClass("doanimation");
 	}, function(){
 		$(".coderun").text("");
+        $(".blink").removeClass("doanimation");
 	});
     $("code").hover(function(){
-        $(".coderun").text("highlight <code>"); 
+        $(".coderun").text("highlight <code>");
+        $(".blink").addClass("doanimation");
     }, function(){
 		$(".coderun").text("");
+        $(".blink").removeClass("doanimation");
     });
     $(".srcimg").hover(function(){
         $(".coderun").text("open img[" + $(this).attr("src") + "]"); 
+        $(".blink").addClass("doanimation");
     }, function(){
 		$(".coderun").text("");
+        $(".blink").removeClass("doanimation");
     });
     $(".srcimg").click(function(){
         window.location = $(this).attr("src"); 
