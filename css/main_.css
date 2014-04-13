@@ -264,3 +264,23 @@ body{
   background:#151515;
   color:#b5e853;
 }
+.blink{
+    display:inline-block;
+    width:4px;
+    height:11px;
+    margin-left:3px;
+}
+.doanimation{
+    background:#a2e226;
+    animation:blink 1s infinite;
+    -webkit-animation:blink 1s infinite;
+}
+@-webkit-keyframes blink {
+  0%     { opacity: 1 } 50% { opacity: 1 }
+  50.01% { opacity: 0 } 100% { opacity: 0 }
+}
+
+@keyframes blink {
+  0%     { opacity: 0 } 50% { opacity: 0 }
+  50.01% { opacity: 1 } 100% { opacity: 1 }
+}
