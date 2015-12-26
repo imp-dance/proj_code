@@ -154,7 +154,7 @@ p:after{
 .links a{
 	color:#006400;
 	text-decoration:none;
-	display:block;
+	display:inline-block;
 }
 .links a:hover{
 	text-decoration:underline;
