@@ -84,6 +84,20 @@ a:hover{
 h1, h2, h3, h4, h5{
 	margin:0 0 5px 0;
 }
+
+h1{
+	color: #a2e226;
+	white-space: nowrap;
+	overflow: hidden;
+	width: 30em;
+	animation: write 10s steps(900, end);
+}
+
+h1:after{
+	content: '|';
+	animation: blink 1s infinite;
+}
+
 .dd-code{
     position:fixed;
     top:0;
@@ -283,4 +297,23 @@ body{
 @keyframes blink {
   0%     { opacity: 0 } 50% { opacity: 0 }
   50.01% { opacity: 1 } 100% { opacity: 1 }
+}
+
+@-webkit-keyframes write{
+	from{width: 0;}
+}
+
+@keyframes write{
+	from{width: 0;}
+}
+
+@keyframes blink{
+	from{opacity: 1;}
+	to{opacity: .0;}
+}
+
+
+@-webkit-keyframes blink{
+	from{opacity: 1;}
+	to{opacity: .0;}
 }
